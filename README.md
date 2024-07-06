@@ -20,11 +20,14 @@ Install Cookiecutter:
 pip install cookiecutter
 ```
 
-Create a project based on the template:
+Create a project based on the template of Khuyen Tran:
 ```bash
 cookiecutter https://github.com/khuyentran1401/data-science-template
 ```
-
+Create a project based on the Khuyen Tran template modified by Espedito Ferreira Alves:
+```bash
+cookiecutter https://github.com/espeditoalves/data-science-template
+```
 ## Resources for a detailed explanation of this template:
 - [Article](https://mathdatasimplified.com/how-to-structure-a-data-science-project-for-readability-and-transparency-2/)
 - [Video](https://youtu.be/TzvcPi3nsdw)
