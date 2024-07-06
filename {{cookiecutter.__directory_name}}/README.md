@@ -29,6 +29,21 @@
 ├── Makefile                        # store useful commands to set up the environment
 ├── models                          # store models
 ├── notebooks                       # store notebooks
+│   ├── exploration
+│   │   └── .gitkeep
+│   ├── modeling
+│   │   └── .gitkeep
+│   ├── preprocessing
+│   │   └── .gitkeep
+│   └── reporting
+│       └── .gitkeep
+├── output                          # store outputs
+│   ├── figures
+│   │   └── .gitkeep
+│   ├── predictions
+│   │   └── .gitkeep
+│   └── reports
+│       └── .gitkeep
 {% if cookiecutter.dependency_manager == "pip" -%}
 ├── pyproject.toml                  # Configure black
 {% elif cookiecutter.dependency_manager == "poetry" -%}
