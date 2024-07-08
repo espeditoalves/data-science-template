@@ -4,6 +4,8 @@ name = "{{ cookiecutter.__directory_name }}"
 version = "0.1.0"
 description = "{{ cookiecutter.description }}"
 authors = ["{{ cookiecutter.author_name }}"]
+package-mode = false  # Desativa o empacotamento do projeto, utilizando o Poetry apenas para gerenciamento de dependências
+# ou poderia usar o comando: poetry install --no-root, útil se você estiver apenas gerenciando dependências sem necessidade de empacotamento específico
 
 [tool.poetry.dependencies]
 python = "{{ cookiecutter.compatible_python_versions }}"
