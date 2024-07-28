@@ -31,3 +31,9 @@ cookiecutter https://github.com/espeditoalves/data-science-template
 ## Resources for a detailed explanation of this template:
 - [Article](https://mathdatasimplified.com/how-to-structure-a-data-science-project-for-readability-and-transparency-2/)
 - [Video](https://youtu.be/TzvcPi3nsdw)
+
+## Additional Information
+After executing this command, the template will be downloaded to a cookiecutter root folder, and then your folder with the directories defined in the template will be created.
+
+For more details about cookiecutter, visit: [Folder Structure with Cookiecutter](https://github.com/espeditoalves/PythonDataLab/blob/main/Ferramentas_projetos/page/Estrutura_pastas_README.md).
+In this report, I describe the main information on how I use this tool.
